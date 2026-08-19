@@ -1,0 +1,25 @@
+1.What is the difference between LAN, MAN, and WAN?
+LAN covers a small area like a home, school, or office.
+MAN covers a larger area such as a city or large campus.
+WAN covers very large areas, such as countries or the entire world.
+
+2.Why do we use DNS?
+DNS converts easy-to-remember domain names like google.com into IP addresses that computers use to find the correct server.
+
+3.Why is HTTPS safer than HTTP?
+HTTPS encrypts the data exchanged between the browser and server, helping protect information from being read or changed by others.
+
+4.What is the role of TCP?
+TCP makes sure data is delivered reliably, correctly, and in the proper order between devices.
+
+5.What is the role of IP?
+IP provides addressing and helps data packets reach the correct destination.
+
+6.Which OSI layer does TCP belong to?
+TCP belongs to Layer 4 — Transport Layer.
+
+7.Which OSI layer does IP belong to?
+IP belongs to Layer 3 — Network Layer.
+
+8.What is one new thing you learned today?
+I learned that when I type a website address, DNS first finds its IP address before the browser communicates with the web server.
