@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Networks | Protocols</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar"><div class="container nav-inner">
+  <a class="logo" href="index.html">Computer<span> Networks</span></a>
+  <nav class="nav-links">
+    <a href="index.html">Networks</a>
+    <a class="active" href="protocols.html">Protocols</a>
+    <a href="osi.html">OSI Model</a>
+  </nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="container">
+  <div class="eyebrow">PAGE 02 · PROTOCOLS</div>
+  <h1>How Computers <span>Communicate</span></h1>
+  <p>Protocols are rules that computers follow so devices can understand each other and exchange data reliably.</p>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-heading"><h2>Common Network Protocols</h2><p>Each protocol has a specific job in communication.</p></div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Protocol</th><th>Full Form</th><th>Purpose</th><th>Analogy</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td>HTTP</td><td>HyperText Transfer Protocol</td><td>Transfers web pages between browser and server.</td><td>Sending a normal letter</td><td>Opening a basic website</td></tr>
+        <tr><td>HTTPS</td><td>HyperText Transfer Protocol Secure</td><td>Transfers web data securely using encryption.</td><td>Sending a locked letter</td><td>Online banking</td></tr>
+        <tr><td>TCP</td><td>Transmission Control Protocol</td><td>Helps data arrive correctly and in order.</td><td>A delivery manager checking every package</td><td>Sending a large file</td></tr>
+        <tr><td>IP</td><td>Internet Protocol</td><td>Helps data find its destination.</td><td>An address on a package</td><td>Sending data to a server</td></tr>
+        <tr><td>DNS</td><td>Domain Name System</td><td>Converts domain names into IP addresses.</td><td>A phone contact list</td><td>google.com → IP address</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-heading"><h2>How a Website Loads</h2><p>What happens after you type a website address(www.google.com) into your browser?</p></div>
+  <div class="flow">
+    <div class="flow-item">Browser</div><div class="arrow">→</div>
+    <div class="flow-item">DNS</div><div class="arrow">→</div>
+    <div class="flow-item">IP Address</div><div class="arrow">→</div>
+    <div class="flow-item">Server</div><div class="arrow">→</div>
+    <div class="flow-item">Response</div><div class="arrow">→</div>
+    <div class="flow-item">Web Page</div>
+  </div>
+  <div class="journey-image-wrap">
+    <img class="journey-image" src="images/img.png" alt="Flow diagram showing the journey of a request from a laptop to a router, ISP, DNS, Google Server, and browser">
+  </div>
+  <div class="grid" style="margin-top:24px">
+    <article class="card"><div class="card-icon">DNS</div><h3>Find the Server</h3><p>DNS translates a human-friendly domain name into an IP address.</p></article>
+    <article class="card"><div class="card-icon">IP</div><h3>Find the Destination</h3><p>IP provides addressing information so packets can reach the correct destination.</p></article>
+    <article class="card"><div class="card-icon">WEB</div><h3>Request & Response</h3><p>HTTP or HTTPS handles communication between your browser and the web server.</p></article>
+  </div>
+  <div class="callout"><strong>In simple terms:</strong> DNS finds where the website lives, IP helps data reach it, TCP helps deliver data reliably, and HTTP/HTTPS handles the web communication.</div>
+</div></section>
+</main>
+
+<footer class="footer"><div class="container">Computer Networks · Explore How the Internet Works</div></footer>
+</body>
+</html>
